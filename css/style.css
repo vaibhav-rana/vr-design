@@ -123,7 +123,7 @@ header .header-text img {
 }
 
 #team .card {
-  margin-top: 50px;
+  margin: 50px auto;
   border: 1px solid #969696;
   border-radius: 0;
 }
@@ -247,5 +247,236 @@ footer p {
   color: #ddd;
   background-color: #282f35;
   text-transform: uppercase;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    height: 80vh;
+  }
+  header .header-text {
+    height: 50vh;
+  }
+  header .header-text h2 {
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    font-size: 1rem;
+  }
+  header .header-text h3 {
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    font-size: 0.4rem;
+  }
+  header .header-text button {
+    font-size: 0.4rem;
+    padding: 3px 12px;
+  }
+  header .header-text img {
+    width: 180px;
+  }
+  #about h1 {
+    font-size: 0.8rem;
+  }
+  #about h4 {
+    font-size: 0.6rem;
+  }
+  #about p {
+    font-size: 0.4rem;
+  }
+  #about button {
+    font-size: 0.4rem;
+    padding: 3px 12px;
+    border-radius: 50px;
+    outline: none;
+  }
+  #client {
+    height: 80vh;
+  }
+  #client h1 {
+    font-size: 0.8rem;
+  }
+  #client h4 {
+    font-size: 0.6rem;
+  }
+  #client .col-2 {
+    margin: 20px auto;
+  }
+  #client .col-2 img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  #team h1 {
+    font-size: 0.8rem;
+  }
+  #team h4 {
+    font-size: 0.6rem;
+  }
+  #team .row {
+    margin: 0;
+  }
+  #team .col-4 {
+    padding: 0 20px;
+  }
+  #team .card {
+    margin: 40px auto;
+  }
+  #team .card img {
+    margin: 30px auto;
+    margin-bottom: 0;
+    width: 100px;
+  }
+  #team .card h5 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-top: 0;
+  }
+  #team .card h6 {
+    font-size: 0.3rem;
+  }
+  #team .card h6:after {
+    width: 50px;
+    margin-top: 30px;
+  }
+  #contact {
+    height: 80vh;
+  }
+  #contact h1 {
+    font-size: 0.8rem;
+  }
+  #contact h4 {
+    font-size: 0.6rem;
+  }
+  #contact form {
+    margin: 5px;
+    padding: 5px;
+  }
+  #contact form input,
+  #contact form textarea {
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.4rem;
+  }
+  #contact form button {
+    font-size: 0.4rem;
+  }
+  footer p {
+    font-size: 0.3rem;
+    margin: 0px;
+    border: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    height: 100vh;
+  }
+  header .header-text {
+    height: 80vh;
+  }
+  header .header-text h2 {
+    letter-spacing: 8px;
+    word-spacing: 6px;
+    font-size: 1.2rem;
+  }
+  header .header-text h3 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 0.5rem;
+  }
+  header .header-text button {
+    font-size: 0.5rem;
+    padding: 4px 14px;
+  }
+  header .header-text img {
+    width: 190px;
+  }
+  #about h1 {
+    font-size: 0.9rem;
+  }
+  #about h4 {
+    font-size: 0.7rem;
+  }
+  #about p {
+    font-size: 0.5rem;
+  }
+  #about button {
+    font-size: 0.5rem;
+    padding: 4px 14px;
+    border-radius: 50px;
+    outline: none;
+  }
+  #client {
+    height: 90vh;
+  }
+  #client h1 {
+    font-size: 0.9rem;
+  }
+  #client h4 {
+    font-size: 0.7rem;
+  }
+  #client .col-2 {
+    margin: 25px auto;
+  }
+  #client .col-2 img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  #team h1 {
+    font-size: 0.9rem;
+  }
+  #team h4 {
+    font-size: 0.7rem;
+  }
+  #team .row {
+    margin: 0;
+  }
+  #team .col-4 {
+    padding: 0 25px;
+  }
+  #team .card {
+    margin: 45px auto;
+  }
+  #team .card img {
+    margin: 35px auto;
+    margin-bottom: 0;
+    width: 120px;
+  }
+  #team .card h5 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-top: 0;
+  }
+  #team .card h6 {
+    font-size: 0.4rem;
+  }
+  #team .card h6:after {
+    width: 60px;
+    margin-top: 35px;
+  }
+  #contact {
+    height: 90vh;
+  }
+  #contact h1 {
+    font-size: 0.9rem;
+  }
+  #contact h4 {
+    font-size: 0.7rem;
+  }
+  #contact form {
+    margin: 8px;
+    padding: 8px;
+  }
+  #contact form input,
+  #contact form textarea {
+    margin: 8px;
+    padding: 8px;
+    font-size: 0.6rem;
+  }
+  #contact form button {
+    font-size: 0.6rem;
+  }
+  footer p {
+    font-size: 0.4rem;
+    border: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
